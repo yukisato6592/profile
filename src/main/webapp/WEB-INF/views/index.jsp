@@ -8,6 +8,7 @@
 </head>
 <body>
 	<a href="<%=request.getContextPath()%>/oohata"> 大畑 </a>
+	<br>
 	<a href="<%=request.getContextPath()%>/sato"> 佐藤 </a>
 </body>
 </html>

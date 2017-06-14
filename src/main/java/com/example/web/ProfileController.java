@@ -7,17 +7,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class ProfileController {
 
-	@RequestMapping("/")
+	@RequestMapping(value = "/")
 	public String index(){
+		System.out.println("aaaaaaaaaaaaaaaaaa");
 		return "index";
 	}
 	
-	@RequestMapping("/oohata")
+	@RequestMapping(value = "/oohata")
 	public String oohata(){
-		return "";
+		return "oohata";
 	}
 	
-	@RequestMapping("/sato")
+	@RequestMapping(value = "/sato")
 	public String sato(){
 		return "sato";
 	}

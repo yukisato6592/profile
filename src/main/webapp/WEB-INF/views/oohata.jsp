@@ -19,6 +19,6 @@
 	<a href="http://www.rakus.co.jp/">株式会社ラクス</a>
 	<br>
 	<br>
-	<a href="<%=request.getContextPath()%>/baseball/" id="back">戻る</a>
+	<a href="<%=request.getContextPath()%>/" id="back">戻る</a>
 </body>
 </html>
